@@ -83,7 +83,11 @@ nav {
 
 
 /* MAIN  */
-main p {padding: .5rem 2vw;}
+main {
+	grid-row-start: 3;
+ 	p {padding: .5rem 2vw;}
+	h1 {padding: .5rem 2vw; font-size: 2rem; color: $primaryColor;}
+} // end main
 
 
 
